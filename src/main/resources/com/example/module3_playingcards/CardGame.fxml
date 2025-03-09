@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.module3_playingcards.CardGameController">
+   <children>
+      <HBox layoutX="52.0" layoutY="78.0" prefHeight="277.0" prefWidth="626.0">
+         <children>
+            <VBox prefHeight="231.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="card1" fitHeight="277.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+            <VBox prefHeight="231.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="card2" fitHeight="277.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+            <VBox prefHeight="231.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="card3" fitHeight="276.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+            <VBox prefHeight="231.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="card4" fitHeight="277.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button fx:id="hintButton" layoutX="227.0" layoutY="28.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" text="Hint" />
+      <Button fx:id="refreshButton" layoutX="448.0" layoutY="29.0" mnemonicParsing="false" text="Refresh" />
+      <TextField fx:id="answerText" layoutX="308.0" layoutY="356.0" />
+      <Button fx:id="verifyButton" layoutX="457.0" layoutY="355.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" text="Verify" />
+      <Text layoutX="202.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter an expression:" />
+      <Text fx:id="hintText" layoutX="335.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card Game" />
+   </children>
+</AnchorPane>
